@@ -4,7 +4,7 @@ const Sequelize = require("sequelize");
 
 const database = "online_voting_platform_db";
 const username = "postgres";
-const password = "wd201";
+const password = "root";
 const sequelize = new Sequelize(database, username, password, {
   host: "localhost",
   dialect: "postgres",
